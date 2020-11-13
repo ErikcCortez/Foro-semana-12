@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6961574-22fc-4a79-8f9a-4cd076b9bfe5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jakMkmghXM2PCm81JVa0tdwHnC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rodri\WebstormProjects\LandingPage\Imagenes" />
+      <recent name="C:\Users\rodri\WebstormProjects\LandingPage\Css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Portada.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:4379/LandingPage/Portada.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Portada.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6961574-22fc-4a79-8f9a-4cd076b9bfe5" name="Default Changelist" comment="" />
+      <created>1604049543919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604049543919</updated>
+      <workItem from="1604049545032" duration="1517000" />
+      <workItem from="1604119813666" duration="16721000" />
+      <workItem from="1604179304458" duration="21187000" />
+      <workItem from="1604978066943" duration="5332000" />
+      <workItem from="1604983767868" duration="166000" />
+      <workItem from="1605025200808" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="428" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604050111807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="428" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604050111807" />
+    <state x="444" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604979122617">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="444" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1304.768@62.0.1304.768" timestamp="1604979122617" />
+    <state width="796" height="210" key="GridCell.Tab.0.bottom" timestamp="1604209858983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604209858983" />
+    <state width="796" height="210" key="GridCell.Tab.0.center" timestamp="1604209858982">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604209858982" />
+    <state width="796" height="210" key="GridCell.Tab.0.left" timestamp="1604209858980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604209858980" />
+    <state width="796" height="210" key="GridCell.Tab.0.right" timestamp="1604209858982">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604209858982" />
+    <state width="796" height="210" key="GridCell.Tab.1.bottom" timestamp="1604209858984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604209858984" />
+    <state width="796" height="210" key="GridCell.Tab.1.center" timestamp="1604209858984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604209858984" />
+    <state width="796" height="210" key="GridCell.Tab.1.left" timestamp="1604209858983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604209858983" />
+    <state width="796" height="210" key="GridCell.Tab.1.right" timestamp="1604209858984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="796" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604209858984" />
+    <state width="1515" height="210" key="GridCell.Tab.2.bottom" timestamp="1604126134816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604126134816" />
+    <state width="1515" height="210" key="GridCell.Tab.2.center" timestamp="1604126134816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604126134816" />
+    <state width="1515" height="210" key="GridCell.Tab.2.left" timestamp="1604126134816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604126134816" />
+    <state width="1515" height="210" key="GridCell.Tab.2.right" timestamp="1604126134816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604126134816" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604133903516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1604133903516" />
+    <state x="487" y="258" width="611" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604979191104">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="487" y="258" width="611" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/62.0.1304.768@62.0.1304.768" timestamp="1604979191104" />
+    <state x="746" y="161" key="run.anything.popup" timestamp="1604050378209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="746" y="161" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1604050378209" />
+    <state x="436" y="135" width="672" height="632" key="search.everywhere.popup" timestamp="1604978710162">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604202416480" />
+    <state x="436" y="135" width="672" height="632" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1604978710162" />
+  </component>
+</project>

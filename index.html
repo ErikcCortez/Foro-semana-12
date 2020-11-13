@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All About Mask | Indicadores</title>
+    <link rel="stylesheet" href="Css/Styles_Portada.css">
+</head>
+<body>
+
+        <!--efecto de olas-->
+
+    <section>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave1"></div>
+        <div class="wave wave4"></div>
+    </section>
+
+        <!--menu-->
+
+    <header class="header">
+        <div class="container logo-nav-container">
+            <div class="logo"><a href="Portada.html"> <img src="Imagenes/NewLogo.png" height="80" width="143" alt="mascarilla mask cubreboca"></a></div>
+            <a href="Portada.html" class="logo">INDICADORES</a>
+                <nav class="navegacion" >
+
+
+                </nav>
+        </div>
+    </header>
+
+        <!--Portada-->
+            <main class="b_container">
+                <h2 id="id-id-cuadr">MASCARILLAS SOLICITADAS</h2>
+                 <div class="Zona" >
+                     <h3>Por Zona</h3>
+                     <div class="div-tablas">
+                     <table>
+                         <thead>
+                            <tr>
+                                <th > Zona</th>
+                                <th > Cant.</th>
+                            </tr>
+                         </thead>
+                         <tbody>
+                            <tr>
+                                <td>Santa Anita</td>
+                                <td>54k</td>
+                            </tr>
+                            <tr>
+                                <td>Surco</td>
+                                <td>33k</td>
+                            </tr>
+                            <tr>
+                                <td>Miraflores</td>
+                                <td>20k</td>
+                            </tr>
+                            <tr>
+                                <td>Ate</td>
+                                <td>5k</td>
+                            </tr>
+                         </tbody>
+                     </table>
+                     </div>
+                     <div class="GRAFICO">
+                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                         <script type="text/javascript">
+                             google.charts.load("current", {packages:['corechart']});
+                             google.charts.setOnLoadCallback(drawChart);
+                             function drawChart() {
+                                 var data = google.visualization.arrayToDataTable([
+                                     ["Element", "Cant", { role: "style" } ],
+                                     ["Santa Anita", 54.0, "red"],
+                                     ["Surco", 33.49, "blue"],
+                                     ["Miraflores", 20.30, "green"],
+                                     ["Ate", 5.45, "color: orange"],
+                                     ["Otros", 21.45, "color: yellow"]
+                                 ]);
+
+                                 var view = new google.visualization.DataView(data);
+                                 view.setColumns([0, 1,
+                                     { calc: "stringify",
+                                         sourceColumn: 1,
+                                         type: "string",
+                                         role: "none"
+                                     },
+                                     2]);
+
+                                 var options = {
+                                     bar: {groupWidth: "95%"},
+                                     legend: 'none',
+                                     hAxis: {
+                                         slantedText: true,
+                                     },
+                                 };
+                                 var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+                                 chart.draw(view, options);
+                             }
+                         </script>
+                         <div id="columnchart_values" style="width: 540px; height: 300px; padding: 0;"></div>
+                     </div>
+                 </div>
+                 <div class="Enti" >
+                     <h3>Por Entidad</h3>
+                     <div class="div-tablas">
+                     <table>
+                         <thead>
+                         <tr>
+                             <th >Entidad</th>
+                             <th > Cant.</th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <tr>
+                             <td>Mascarillas.com</td>
+                             <td>8.6k</td>
+                         </tr>
+                         <tr>
+                             <td>Hospital niño feliz</td>
+                             <td>5.5k</td>
+                         </tr>
+                         <tr>
+                             <td>Mask ONG</td>
+                             <td>5.1k</td>
+                         </tr>
+                         <tr>
+                             <td>Salud Mundial</td>
+                             <td>4.3k</td>
+                         </tr>
+                         </tbody>
+                     </table>
+                     </div>
+                     <div class="GRAFICO">
+                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                         <script type="text/javascript">
+                             google.charts.load("current", {packages:['corechart']});
+                             google.charts.setOnLoadCallback(drawChart);
+                             function drawChart() {
+                                 var data = google.visualization.arrayToDataTable([
+                                     ["Element", "Cant", { role: "style" } ],
+                                     ["Mascarillas.com", 8.65, "red"],
+                                     ["Hospital niño feliz", 5.52, "blue"],
+                                     ["Mask ONG", 5.16, "green"],
+                                     ["Salud Mundial", 4.31, "color: orange"],
+                                     ["Otros", 2.48, "color: yellow"]
+                                 ]);
+
+                                 var view = new google.visualization.DataView(data);
+                                 view.setColumns([0, 1,
+                                     { calc: "stringify",
+                                         sourceColumn: 1,
+                                         type: "string",
+                                         role: "none"
+                                     },
+                                     2]);
+
+                                 var options = {
+                                     bar: {groupWidth: "95%"},
+                                     legend: 'none',
+                                     hAxis: {
+                                         slantedText: true,
+                                     },
+                                 };
+                                 var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values2"));
+                                 chart.draw(view, options);
+                             }
+                         </script>
+                         <div id="columnchart_values2" style="width: 540px; height: 300px; padding: 0;"></div>
+                     </div>
+                 </div>
+                 <div class="person" >
+                     <h3>Por Mes</h3>
+                     <div class="div-tablas">
+                     <table>
+                         <thead>
+                         <tr>
+                             <th >Mes(2020)</th>
+                             <th > Cant.</th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <tr>
+                             <td>Febrero</td>
+                             <td>12.3k</td>
+                         </tr>
+                         <tr>
+                             <td>Mayo</td>
+                             <td>10.3k</td>
+                         </tr>
+                         <tr>
+                             <td>Abril</td>
+                             <td>7.8k</td>
+                         </tr>
+                         <tr>
+                             <td>Enero</td>
+                             <td>6.6k</td>
+                         </tr>
+                         </tbody>
+                     </table>
+                     </div>
+                     <div class="GRAFICO">
+                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                         <script type="text/javascript">
+                             google.charts.load("current", {packages:['corechart']});
+                             google.charts.setOnLoadCallback(drawChart);
+                             function drawChart() {
+                                 var data = google.visualization.arrayToDataTable([
+                                     ["Element", "Cant", { role: "style" } ],
+                                     ["Enero", 6.61, "red"],
+                                     ["Febrero", 12.38, "blue"],
+                                     ["Marzo", 2.46, "green"],
+                                     ["Abril", 7.80, "color: orange"],
+                                     ["Mayo", 10.34, "color: purple"],
+                                     ["Otros", 4.21, "color: yellow"]
+                                 ]);
+
+                                 var view = new google.visualization.DataView(data);
+                                 view.setColumns([0, 1,
+                                     { calc: "stringify",
+                                         sourceColumn: 1,
+                                         type: "string",
+                                         role: "none"
+                                     },
+                                     2]);
+
+                                 var options = {
+                                     bar: {groupWidth: "95%"},
+                                     legend: 'none',
+                                     hAxis: {
+                                         slantedText: true,
+                                     },
+                                 };
+                                 var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values3"));
+                                 chart.draw(view, options);
+                             }
+                         </script>
+                         <div id="columnchart_values3" style="width: 540px; height: 300px; padding: 0;"></div>
+                     </div>
+                 </div>
+                 <div class="Top" >
+                        <h3 >Top 5 de ONG</h3>
+                    <div class="div-tablas">
+                        <ol>
+                            <li>Sociedad Peruana de Medicina Interna</li>
+                            <li>Consejo Peruano de Reanimación</li>
+                            <li>Miastenia Gravis</li>
+                            <li>Ceptis - Prevención, Tratamiento, Investigación en Salud</li>
+                            <li>ONG Nuevo Hogar</li>
+                        </ol>
+                    </div>
+                    <div class="GRAFICO">
+                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                        <script type="text/javascript">
+                            google.charts.load('current', {packages:['corechart']});
+                            google.charts.setOnLoadCallback(drawChart);
+                            function drawChart() {
+                                var data = google.visualization.arrayToDataTable([
+                                    ['Task', 'Hours per Day'],
+                                    ['Sociedad Peruana de Medicina Interna',     30.6],
+                                    ['Consejo Peruano de Reanimación',      22.3],
+                                    ['Miastenia Gravis',  11.6],
+                                    ['Ceptis - Prevención, Tratamiento, Investigación en Salud', 5],
+                                    ['ONG Nuevo Hogar',    4.2],
+                                    ['Otros',    6.9]
+                                ]);
+
+                                var options = {
+                                    backgroundColor: 'transparent' ,
+                                    legend: 'none',
+                                };
+
+                                var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+                                chart.draw(data, options);
+                            }
+                        </script>
+                        <div id="piechart" style="width: 540px; height: 300px; padding: 0; "></div>
+                    </div>
+                </div>
+            </main>
+</body>
+</html>

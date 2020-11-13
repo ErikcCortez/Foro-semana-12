@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js%22%3E</script>
+<script type="text/javascript">
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+
+var data = google.visualization.arrayToDataTable([
+['Task', 'Hours per Day'],
+['ONG Aprode',     7],
+['ONG Sar',      5],
+['ONG Mask',  3],
+['ONG CARE', 2],
+['ONG Techo',    11]
+]);
+
+var options = {
+title: 'Top de las 5 ONG con mayores solicitudes'
+};
+
+var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+chart.draw(data, options);
+}
+</script>
+<body>
+<div id="piechart" style="width: 900px; height: 500px; padding: 100px; "></div>
+    </body>
+    </html>
